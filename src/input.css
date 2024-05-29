@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .header{
+        @apply bg-red-500 size-full flex flex-col gap-16 pt-8 pb-16
+    }
+    .bar{
+        @apply size-full flex justify-around text-white items-center
+    }
+    .top{
+        @apply flex gap-8 items-center
+    }
+    .ul{
+        @apply lg:flex lg:gap-8 lg:items-center hidden
+    }
+    .btn{
+        @apply lg:flex lg:gap-6 lg:items-center hidden
+    }
+    .sign{
+        @apply text-red-500 bg-white rounded-2xl w-20 h-5 text-xs
+    }
+    .ham{
+        @apply lg:hidden block
+    }
+    .brand{
+        @apply flex flex-col justify-center items-center gap-6
+    }
+    .brand h1{
+        @apply lg:text-5xl text-3xl font-semibold text-center
+    }
+    .btn2{
+        @apply flex gap-4 items-center
+    }
+    .free{
+        @apply text-red-500 bg-white rounded-2xl w-24 h-5 text-xs
+    }
+    .more{
+        @apply text-white border-[1px] border-white rounded-2xl w-24 h-5 text-xs
+    }
+    .hero{
+        @apply size-full flex flex-col lg:gap-5 pt-16 pb-28 gap-10
+    }
+    .hh{
+        @apply text-center lg:text-2xl text-lg font-semibold
+    }
+    .prt{
+        @apply flex lg:flex-row flex-col-reverse lg:justify-around justify-center items-center lg:gap-0 gap-10
+    }
+    .prt p{
+        @apply lg:w-64 text-[8px] w-[150px]
+    }
+    .prt h1{
+        @apply lg:w-60 w-40 font-semibold
+    }
+    .content{
+        @apply flex flex-col gap-7 lg:text-left text-center items-center
+    }
+    .spac{
+        @apply flex flex-col gap-3
+    }
+    .spac2{
+        @apply flex flex-col gap-3
+    }
+    .editor{
+        @apply lg:h-72 h-52
+    }
+    .hero2{
+        @apply size-full flex lg:flex-row flex-col lg:justify-around justify-center items-center text-white bg-blue-950 lg:h-[180px] lg:rounded-tr-[70px] lg:rounded-bl-[70px] rounded-tr-[100px] rounded-bl-[100px] lg:pb-0 pb-[50px]
+    }
+    .phon{
+        @apply h-[250px]
+    }
+    .art{
+        @apply flex flex-col gap-3 lg:text-left text-center
+    }
+    .art p{
+        @apply w-[320px] text-[10px] 
+    }
+    .art h1{
+        @apply lg:w-[300px] w-[150pxpx] font-semibold
+    }
+    .roh{
+        @apply size-full flex lg:flex-row flex-col pt-28 lg:justify-around justify-center items-center
+    }
+    .roh img{
+        @apply h-[250px] lg:h-[350px]
+    }
+    .tool{
+        @apply flex flex-col gap-5 text-center lg:text-left
+    }
+    .tll{
+        @apply flex flex-col gap-5
+    }
+    .tll2{
+        @apply flex flex-col gap-5
+    }
+    .tool p{
+        @apply lg:w-64 text-[10px] w-[150px]
+    }
+    .tool h1{
+        @apply lg:w-60 w-40 font-semibold
+    }
+}
