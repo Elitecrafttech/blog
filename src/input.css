@@ -40,22 +40,22 @@
         @apply text-white border-[1px] border-white rounded-2xl w-24 h-5 text-xs
     }
     .hero{
-        @apply size-full flex flex-col lg:gap-5 pt-16 pb-28 gap-10
+        @apply size-full flex flex-col lg:gap-[70px] pt-16 pb-28 gap-10 justify-around
     }
     .hh{
-        @apply text-center lg:text-2xl text-lg font-semibold
+        @apply text-center lg:text-4xl text-2xl font-semibold
     }
     .prt{
-        @apply flex lg:flex-row flex-col-reverse lg:justify-around justify-center items-center lg:gap-0 gap-10
+        @apply flex lg:flex-row flex-col-reverse items-center gap-7 justify-around
     }
     .prt p{
-        @apply lg:w-64 text-[8px] w-[150px]
+        @apply lg:w-[450px] text-[15px] w-[280px]
     }
     .prt h1{
-        @apply lg:w-60 w-40 font-semibold
+        @apply lg:w-[300px] w-[280px] text-xl font-semibold
     }
     .content{
-        @apply flex flex-col gap-7 lg:text-left text-center items-center
+        @apply flex flex-col gap-7 lg:text-left text-center
     }
     .spac{
         @apply flex flex-col gap-3
@@ -63,7 +63,7 @@
     .spac2{
         @apply flex flex-col gap-3
     }
-    .editor{
+    .prt img{
         @apply lg:h-72 h-52
     }
     .hero2{
@@ -73,22 +73,25 @@
         @apply h-[250px]
     }
     .art{
-        @apply flex flex-col gap-3 lg:text-left text-center
+        @apply flex flex-col gap-5 lg:text-left text-center items-center lg:items-start
     }
     .art p{
-        @apply w-[320px] text-[10px] 
+        @apply lg:w-[450px] text-[15px] w-[280px]
     }
     .art h1{
-        @apply lg:w-[300px] w-[150pxpx] font-semibold
+        @apply lg:w-[300px] w-[180px] text-xl font-semibold
     }
     .roh{
-        @apply size-full flex lg:flex-row flex-col pt-28 lg:justify-around justify-center items-center
+        @apply flex lg:flex-row flex-col items-center pt-[40px] pb-[40px] justify-around lg:gap-0 gap-[30px]
     }
     .roh img{
-        @apply h-[250px] lg:h-[350px]
+        @apply h-[180px] lg:h-[300px]
+    }
+    .rohpics{
+        @apply lg:w-[50%] w-[60%]
     }
     .tool{
-        @apply flex flex-col gap-5 text-center lg:text-left
+        @apply lg:w-[50%] w-[100%] flex flex-col gap-5 text-center lg:text-left items-center
     }
     .tll{
         @apply flex flex-col gap-5
@@ -97,9 +100,30 @@
         @apply flex flex-col gap-5
     }
     .tool p{
-        @apply lg:w-64 text-[10px] w-[150px]
+        @apply lg:w-[450px] text-[15px] w-[280px]
     }
     .tool h1{
-        @apply lg:w-60 w-40 font-semibold
+        @apply text-xl font-semibold
+    }
+    .ftr{
+        @apply size-full bg-black flex flex-col text-white lg:flex-row items-center lg:items-start p-[30px] lg:rounded-tr-[70px] rounded-tr-[100px] gap-5
+    }
+    .ftr img{
+        @apply h-[30px]
+    }
+    .ftr-img{
+        @apply w-[20%] flex justify-around
+    }
+    .list-prt{
+        @apply w-[80%] flex lg:flex-row flex-col justify-around items-center lg:items-start gap-5 text-center lg:text-left
+    }
+    .list-prt div{
+        @apply flex flex-col gap-[15px]
+    }
+    .list-prt h3{
+        @apply text-xl font-semibold text-center lg:text-left
+    }
+    .list-prt li{
+        @apply text-sm  text-center lg:text-left
     }
 }
