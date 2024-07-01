@@ -7,22 +7,31 @@
         @apply bg-red-500 size-full flex flex-col gap-16 pt-8 pb-16
     }
     .bar{
-        @apply size-full flex justify-around text-white items-center
+        @apply flex text-white items-center justify-around
     }
     .top{
         @apply flex gap-8 items-center
     }
+    .togle{
+        @apply md:flex hidden md:flex-row flex-col items-center text-center 
+        bg-white md:w-auto md:static absolute top-[75px] right-[20px]
+        left-[20px] h-[60vh] md:h-0 gap-10 text-black md:text-white md:gap-[70px]
+    }
     .ul{
-        @apply lg:flex lg:gap-8 lg:items-center hidden
+        @apply lg:flex lg:gap-8 lg:items-center  font-bold md:font-normal leading-10
     }
     .btn{
-        @apply lg:flex lg:gap-6 lg:items-center hidden
+        @apply md:flex gap-6 lg:items-center flex flex-col md:flex-row font-bold md:font-normal
     }
     .sign{
-        @apply text-red-500 bg-white rounded-2xl w-20 h-5 text-xs
+        @apply text-white md:text-red-500 bg-red-500 md:bg-white rounded-2xl 
+        p-[10px] md:p-[2px] text-[15px] w-[30vw] md:w-[10vw]
     }
     .ham{
         @apply lg:hidden block
+    }
+    .ham-btn{
+        @apply hidden
     }
     .brand{
         @apply flex flex-col justify-center items-center gap-6

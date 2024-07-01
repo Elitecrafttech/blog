@@ -14,17 +14,22 @@
     <nav class="bar">
       <div class="top">
         <img src="images/logo.svg" alt="">
-        <ul class="ul">
-          <li>Product</li>
-          <li>Company</li>
-          <li>Connect</li>
-        </ul>
+        <div class="togle">
+          <ul class="ul">
+            <li>Product</li>
+            <li>Company</li>
+            <li>Connect</li>
+          </ul>
+          <div class="btn">
+            <button>Login</button>
+            <button class="sign">Sign Up</button>
+          </div>
+       </div>
       </div>
-      <div class="btn">
-        <button>Login</button>
-        <button class="sign">Sign Up</button>
+      <div class="ham">
+        <img src="images/icon-close.svg" alt="" class="ham-btn" onclick="closemenu()">
+        <img src="images/icon-hamburger.svg" alt="" class="hamburger" onclick="menu()">
       </div>
-      <div class="ham"><img src="images/icon-hamburger.svg" alt=""></div>
     </nav>
     <div class="brand">
       <h1>A modern publishing platform</h1>
@@ -111,5 +116,7 @@
       </div>
     </div>
   </footer>
+
+  <script src="index.js"></script>
 </body>
 </html>
